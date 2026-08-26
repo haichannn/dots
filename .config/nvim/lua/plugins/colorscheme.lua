@@ -1,11 +1,14 @@
 return {
 
   -- Catppuccin colorscheme
-  -- {
-  --   "catppuccin/nvim",
-  --   lazy = true,
-  -- },
+  -- https://github.com/catppuccin/nvim
+  {
+    "catppuccin/nvim",
+    priority = 1000,
+  },
 
+  -- Onedarkpro colorscheme
+  -- https://github.com/olimorris/onedarkpro.nvim
   {
     "olimorris/onedarkpro.nvim",
     priority = 1000, -- Ensure it loads first
@@ -14,7 +17,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "onedark"
+      colorscheme = "catppuccin-nvim",
     },
   },
 }
