@@ -1,5 +1,3 @@
 {
-    "diagnostics.globals": [
-        "ascii"
-    ]
+  "format.enable": false
 }

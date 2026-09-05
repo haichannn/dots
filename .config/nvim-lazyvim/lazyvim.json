@@ -9,7 +9,8 @@
     "lazyvim.plugins.extras.lang.sql",
     "lazyvim.plugins.extras.lang.typescript",
     "lazyvim.plugins.extras.lang.typescript.vtsls",
-    "lazyvim.plugins.extras.test.core"
+    "lazyvim.plugins.extras.test.core",
+    "lazyvim.plugins.extras.util.gh"
   ],
   "install_version": 8,
   "news": {
