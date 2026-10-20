@@ -12,8 +12,9 @@ return {
   -- Themes
   { import = "astrocommunity.colorscheme.catppuccin" },
   { import = "astrocommunity.colorscheme.onedarkpro-nvim" },
-
+  -- { import = "astrocommunity.colorscheme.gruvbox-nvim" },
   -- { import = "astrocommunity.colorscheme.tokyonight-nvim" },
+  { import = "astrocommunity.colorscheme.nordic-nvim" },
 
   -- Tools
   { import = "astrocommunity.docker.lazydocker" },
