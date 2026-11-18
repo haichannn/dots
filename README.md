@@ -15,6 +15,7 @@ Repo ini dibuat supaya waktu fresh install Arch, tinggal clone dan apply — sem
 | bat | Pengganti `cat` dengan syntax highlighting | [github.com/sharkdp/bat](https://github.com/sharkdp/bat) |
 | Brave Browser | Chromium-based browser (config flag X11) | [brave.com](https://brave.com/) |
 | GNU Stow | Symlink manager untuk dotfiles | [gnu.org/software/stow](https://www.gnu.org/software/stow/) |
+| WezTerm | WezTerm is a powerful cross-platform terminal emulator and multiplexer implemented Rust | [WezTerm](https://wezterm.org/) |
 
 ## Prerequisites
 
@@ -32,10 +33,10 @@ sudo pacman -S git stow
 Install semua tools sekaligus:
 
 ```bash
-sudo pacman -S neovim lazygit lazydocker superfile bat cava
+sudo pacman -S neovim lazygit lazydocker superfile bat cava wezterm less nodejs ripgrep npm
 ```
 
-> **Note:** `brave-bin` mungkin perlu di-install via AUR (yay/paru):
+> **Note:** `brave-bin` mungkin perlu di-install via AUR (yay/paru) (Optional):
 
 ```bash
 yay -S brave-bin
@@ -45,7 +46,7 @@ yay -S brave-bin
 
 ```bash
 # 1. Clone repo
-git clone https://github.com/<username>/dotfiles.git ~/dotfiles
+git clone https://github.com/haichannn/dots.git ~/dotfiles
 
 # 2. Masuk ke direktori
 cd ~/dotfiles
@@ -100,6 +101,9 @@ dotfiles/
 │   │
 │   ├── bat/               # bat themes
 │   │   └── themes/        # Catppuccin & custom themes
+│   │
+│   ├── wezterm/           # Wezterm terminal
+│   │   └── wezterm.lua        
 │   │
 │   └── brave-flags.conf   # Flag X11 untuk Brave
 │

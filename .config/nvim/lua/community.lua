@@ -13,6 +13,10 @@ return {
   { import = "astrocommunity.pack.lua" },
   { import = "astrocommunity.pack.docker" },
   { import = "astrocommunity.pack.yaml" },
+  { import = "astrocommunity.pack.markdown" },
+
+  -- Markdown 
+  { import= "astrocommunity.markdown-and-latex.markview-nvim" },
 
   -- Lsp
   { import = "astrocommunity.lsp.lsp-lens-nvim" },
